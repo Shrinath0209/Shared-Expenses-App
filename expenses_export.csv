@@ -1,0 +1,50 @@
+date,description,amount,currency,paid_by,split_type,split_with,category,notes
+01/02/2026,Groceries - February Week 1,1800,INR,Aisha,equal,"Aisha,Rohan,Priya,Meera",Food,Monthly grocery run
+05/02/2026,Electricity Bill - January,2200,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Utilities,January electricity
+10/02/2026,Internet - February,800,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Utilities,Monthly internet
+14/02/2026,Valentine Dinner Out,3600,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Food,Restaurant dinner
+18/02/2026,Groceries Week 3,2100,INR,Aisha,equal,"Aisha,Rohan,Priya,Meera",Food,
+20/02/2026,House Cleaning Service,1200,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Home,Monthly cleaning
+25/02/2026,Milk and Bread,320,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Food,
+28/02/2026,Water Bill,600,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Utilities,
+05/03/2026,Groceries March Week 1,1950,INR,Aisha,equal,"Aisha,Rohan,Priya,Meera",Food,
+10/03/2026,Electricity Bill - February,2350,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Utilities,
+12/03/2026,Movie Night Snacks,680,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Entertainment,
+15/03/2026,Groceries March Week 3,2050,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Food,
+20/03/2026,House Cleaning Service,1200,INR,Aisha,equal,"Aisha,Rohan,Priya,Meera",Home,
+25/03/2026,Gas Cylinder,950,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Utilities,
+28/03/2026,Groceries end of March,1780,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Food,
+31/03/2026,Internet - March,800,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Utilities,Last payment by Meera
+05/04/2026,Groceries April Week 1,2100,INR,Aisha,equal,"Aisha,Rohan,Priya,Sam",Food,Sam joined mid-April but added early
+10/04/2026,Electricity Bill - March,2180,INR,Rohan,equal,"Aisha,Rohan,Priya",Utilities,March electricity (Meera excluded - left)
+15/04/2026,Sam Welcome Dinner,4500,INR,Priya,equal,"Aisha,Rohan,Priya,Sam",Food,Welcome dinner for Sam
+18/04/2026,Groceries April Week 3,1890,INR,Aisha,equal,"Aisha,Rohan,Priya,Sam",Food,
+20/04/2026,Internet - April,800,INR,Rohan,equal,"Aisha,Rohan,Priya,Sam",Utilities,
+22/04/2026,House Cleaning,1200,INR,Priya,equal,"Aisha,Rohan,Priya,Sam",Home,
+28/04/2026,Groceries April last,2200,INR,Sam,equal,"Aisha,Rohan,Priya,Sam",Food,Sam's first contribution
+30/04/2026,Water and Gas,1450,INR,Aisha,equal,"Aisha,Rohan,Priya,Sam",Utilities,
+05/05/2026,Groceries May Week 1,1980,INR,Rohan,equal,"Aisha,Rohan,Priya,Sam",Food,
+12/05/2026,Electricity Bill - April,2300,INR,Priya,equal,"Aisha,Rohan,Priya,Sam",Utilities,
+15/05/2026,Movie Night - Avengers,1200,INR,Sam,equal,"Aisha,Rohan,Priya,Sam",Entertainment,Tickets
+20/05/2026,Groceries May Week 3,2050,INR,Aisha,equal,"Aisha,Rohan,Priya,Sam",Food,
+25/05/2026,House Cleaning May,1200,INR,Rohan,equal,"Aisha,Rohan,Priya,Sam",Home,
+31/05/2026,Internet - May,800,INR,Priya,equal,"Aisha,Rohan,Priya,Sam",Utilities,
+10/03/2026,Electricity Bill - February,2350,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Utilities,DUPLICATE OF ROW 10 - exact same entry
+15/03/2026,Groceries March Week 3,2400,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Food,CONFLICTING DUPLICATE - same desc/date/payer as row 12 but different amount
+05/04/2026,Sam's Share - Rohan settles with Sam,1500,INR,Sam,equal,"Sam,Rohan",Settlement,Rohan paid Sam back for old dues - THIS IS A SETTLEMENT NOT EXPENSE
+,-1500,INR,Aisha,equal,"Aisha",Refund,Aisha got refund for overcharged electricity
+25-03-2026,Coffee and Tea Supplies,480,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Food,Date in different format DD-MM-YYYY
+02/Mar/2026,Movie Streaming Subscription,599,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Entertainment,
+2026-02-14,Valentine Dinner Out,3600,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Food,DUPLICATE of row 4 in different date format
+15/04/2026,Goa Trip - Petrol,$45,USD,Dev,equal,"Aisha,Rohan,Priya,Dev",Travel,Dev paid in USD - CURRENCY ANOMALY
+16/04/2026,Goa Trip - Hotel,$120,USD,Rohan,equal,"Aisha,Rohan,Priya,Dev",Travel,Hotel paid in USD
+17/04/2026,Goa Trip - Food,3200,INR,Priya,equal,"Aisha,Rohan,Priya,Dev",Food,Goa trip food
+18/04/2026,Goa Trip - Activities,$30,USD,Aisha,equal,"Aisha,Rohan,Priya,Dev",Entertainment,Dollar activities
+31/04/2026,Groceries April Week 4,1600,INR,Sam,equal,"Aisha,Rohan,Priya,Sam",Food,INVALID DATE - April has 30 days not 31
+15/06/2026,Future Expense Prepaid,800,INR,Aisha,equal,"Aisha,Rohan,Priya,Sam",Utilities,FUTURE DATE - paid ahead
+01/04/2026,Meera April Groceries,1800,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Food,MEERA LEFT ON 31/03 - expense after leaving
+05/02/2026,House Supplies,550,INR,,equal,"Aisha,Rohan,Priya,Meera",Home,MISSING PAID_BY field
+10/02/2026,Internet - February,800,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Utilities,EXACT DUPLICATE of row 3
+20/02/2026,Groceries Week 3,XYZ,INR,Rohan,equal,"Aisha,Rohan,Priya,Meera",Food,INVALID AMOUNT - non-numeric
+15/03/2026,Groceries March Week 3,0,INR,Meera,equal,"Aisha,Rohan,Priya,Meera",Food,ZERO AMOUNT expense
+28/03/2026,Gas for Kitchen,AMOUNT UNCLEAR,INR,Priya,equal,"Aisha,Rohan,Priya,Meera",Utilities,INVALID AMOUNT
